@@ -1,7 +1,7 @@
 # Neon Database Template
 
 <p align="center">
-  <a href="https://edgeone.ai/pages/new?template=neon-database-template">
+  <a href="https://edgeone.ai/pages/new?template=neon-starter">
     <img src="https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg" alt="Deploy to EdgeOne Pages" height="40">
   </a>
 </p>
@@ -97,7 +97,7 @@ The template uses Drizzle ORM with two tables:
 
 ### One-Click Deploy
 
-[![Deploy to EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=neon-database-template)
+[![Deploy to EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=neon-starter)
 
 Click the button above to deploy this template directly to EdgeOne Pages.
 
@@ -131,7 +131,7 @@ Click the button above to deploy this template directly to EdgeOne Pages.
 ## Project Structure
 
 ```
-neon-database-template/
+neon-starter/
 ├── app/
 │   ├── actions/authActions.ts    # Authentication Server Actions
 │   ├── api/logout/route.ts       # Logout API route

@@ -1,7 +1,7 @@
 # Neon 数据库模板
 
 <p align="center">
-  <a href="https://edgeone.ai/pages/new?template=neon-database-template">
+  <a href="https://edgeone.ai/pages/new?template=neon-starter">
     <img src="https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg" alt="部署到 EdgeOne Pages" height="40">
   </a>
 </p>
@@ -97,7 +97,7 @@ pnpm dev
 
 ### 一键部署
 
-[![部署到 EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=neon-database-template)
+[![部署到 EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=neon-starter)
 
 点击上方按钮直接将此模板部署到 EdgeOne Pages。
 
@@ -131,7 +131,7 @@ pnpm dev
 ## 项目结构
 
 ```
-neon-database-template/
+neon-starter/
 ├── app/
 │   ├── actions/authActions.ts    # 身份验证 Server Actions
 │   ├── api/logout/route.ts       # 登出 API 路由

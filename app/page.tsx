@@ -115,7 +115,7 @@ export default async function HomePage() {
               View on GitHub
             </a>
             <a
-              href="https://edgeone.ai/pages/new?template=neon-database-template"
+              href="https://edgeone.ai/pages/new?template=neon-starter"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-[44px] transition-transform hover:scale-105"
