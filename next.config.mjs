@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     serverActions: {
       bodySizeLimit: '2mb',
-      allowedOrigins: [ '*.edgeone.cool'],
+      allowedOrigins: [ '*.edgeone.site','*.edgeone.app'],
     },
   },
 };
