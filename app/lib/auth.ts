@@ -4,7 +4,13 @@ import { db, schema } from './db';
 import { eq } from 'drizzle-orm';
 import bcrypt from 'bcryptjs';
 
-const SESSION_PASSWORD = process.env.SESSION_SECRET || 'change-this-to-a-secure-secret-key-at-least-32-chars';
+if (!process.env.SESSION_SECRET || process.env.SESSION_SECRET.length < 32) {
+  throw new Error(
+    'SESSION_SECRET environment variable is required and must be at least 32 characters. ' +
+    'Generate one with: openssl rand -base64 32'
+  );
+}
+const SESSION_PASSWORD = process.env.SESSION_SECRET;
 const SESSION_COOKIE_NAME = 'auth-session';
 const SESSION_MAX_AGE = 60 * 60 * 24 * 7; // 7 days
 
