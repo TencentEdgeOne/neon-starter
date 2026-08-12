@@ -8,8 +8,9 @@ import { getCurrentUser } from './lib/auth';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Neon Database Template',
-  description: 'Neon Database Template with EdgeOne Pages',
+  title: 'Neon Database Template | EdgeOne Makers',
+  description: 'Neon Database Template with EdgeOne Pages · Demo only · EdgeOne Makers',
+  keywords: "EdgeOne Makers, Demo only",
 };
 
 export default async function RootLayout({
